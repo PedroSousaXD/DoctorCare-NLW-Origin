@@ -39,6 +39,7 @@ function activateMenuAtCurrentSection(section) {
 }
 
 function showNavOnScroll() {
+  var navigation = document.querySelector("#navigation")
   if (scrollY > 0) {
     navigation.classList.add('scroll')
   } else {
